@@ -1,8 +1,8 @@
 
 import React, { useState } from "react";
 import "./index.css";
-import Flower from "./sunflower.js";
-import ColorPalette from "./ColorPalette.js";
+import Flower from "../../../src/sunflower.js";
+import ColorPalette from "../../../src/ColorPalette.js";
 
 const Colors = () => {
   const [fillColors, setFillColors] = useState(Array(22).fill('white'))
